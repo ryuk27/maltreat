@@ -15,6 +15,7 @@ Remote Access Trojans (RATs) like njRAT allow attackers to stealthily control vi
 
 1. **Launched njRAT.exe** on the attacker machine. A `[Port Now]` pop-up appeared — I left the port as default and clicked OK.
 2. The njRAT GUI appeared. I clicked the **[Build]** button in the bottom-left to start configuring the exploit.
+![njRAT](poc/njrat.png)
 3. In the Builder window, I:
    - Entered the IP address of my Windows 11 machine in the **Host** field.
    - Checked options: `Randomize Stub`, `USB Spread Nj8d`, `Protect Process [BSOD]`.
