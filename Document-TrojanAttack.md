@@ -15,16 +15,18 @@ Remote Access Trojans (RATs) like njRAT allow attackers to stealthily control vi
 
 1. **Launched njRAT.exe** on the attacker machine. A `[Port Now]` pop-up appeared — I left the port as default and clicked OK.
 2. The njRAT GUI appeared. I clicked the **[Build]** button in the bottom-left to start configuring the exploit.
-![njRAT](poc/njrat.png)
 3. In the Builder window, I:
    - Entered the IP address of my Windows 11 machine in the **Host** field.
    - Checked options: `Randomize Stub`, `USB Spread Nj8d`, `Protect Process [BSOD]`.
    - Left the rest of the options as default and clicked **Build**.
+ ![njRAT](poc/njrat.png)
 4. I saved and named the server file and used a phishing technique (e.g., via email) to send it to the victim.
 5. Once the victim double-clicked the malicious server, the njRAT client on my attacker machine established a connection with their device.
-6. The victim's info (IP, username, OS) showed up in my njRAT GUI.
-7. I right-clicked the connected victim and explored available malicious actions.
-
+![victim](poc/victim.png)
+![access](poc/access.png)
+7. The victim's info (IP, username, OS) showed up in my njRAT GUI.
+8. I right-clicked the connected victim and explored available malicious actions.
+![options](poc/options.png)
 ## Right-Click Options (Explained)
 
 - **Manager > File Manager**: Browse and manipulate files and folders on the victim’s system.
